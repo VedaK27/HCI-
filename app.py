@@ -159,10 +159,6 @@ with col2:
     with nav3:
         if st.button("CONTACT", key="nav_contact"):
             st.info("Email: contact@minimalistmind.com | Instagram: @minimalistmind")
-    with nav4:
-        if st.button("🔍", key="nav_search"):
-            st.info("Search feature coming soon.")
-
 # Main content and sidebar
 main_col, sidebar_col = st.columns([2.5, 1])
 
